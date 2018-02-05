@@ -1,0 +1,79 @@
+body
+{/* background: #4F504A url(pattern.png) repeat;*/
+background: #fff;
+  color: #4C4C44;
+}
+
+h1, h3
+{ background: transparent;
+  color: #685130;
+}
+
+.left, .right{border-color: #FFF;}
+
+blockquote{border-color: #8F8F21;}
+
+#main, h2, #breadcrumbs a:hover, #content a:hover, #footer a:hover
+{ background: transparent;
+  color: #d5d3ba;
+}
+
+ul#menu li a 
+{ background: #8F8F21;
+  color: #FFF;
+  border-color: #E0E0BE;  
+} 
+
+input.searchfield
+{ background: #FFF; 
+  border-color: #8F8F21; 
+}
+
+ul#menu li a:hover, ul#menu li a.current, ul#menu li a.current:hover, input.searchbutton
+{ background: #755A1E; 
+  border-color: #E0E0BE; 
+  color: #FFF;
+}
+
+#site_content, #content{background: #FFF;}
+
+.sidebaritem, .sidebaritem ul, .sidebaritem li
+{ background: #F8FBDD;
+  border-color: #DDDFCD;  
+}
+
+.sidebaritem li a, .sidebaritem li a:hover
+{ background: transparent url(arrow.png) no-repeat left center;
+  color: #4C4C44;  
+} 
+
+.sidebaritem li a.current, .sidebaritem li a:hover, .sidebaritem li a.current:hover
+{ background: transparent url(arrow_select.png) no-repeat left center;font-weight:bold;} 
+
+#breadcrumbs a, #content a, #footer a
+{ background: transparent;
+  color: #E15B01;
+}
+
+#menubar, #breadcrumbs, #footer
+{
+	background: #d5d3ba;
+	color: #4C4C44;
+	border-color: #8F8F21;
+}
+
+/* sNews */
+fieldset, .comment, .commentsbox
+{ background: transparent; 
+  color: #444;
+}
+
+fieldset, .date{border-color: #DDDFCD;}
+
+.comment
+{ background: #F8FBDD; 
+  color: #444;
+}
+
+/* treeview  */
+

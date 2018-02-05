@@ -1,0 +1,57 @@
+﻿body {
+}
+.urbangreymenu
+        {
+            width: 190px; /*width of menu*/
+        }
+        .urbangreymenu .headerbar
+{
+	border-style: solid;
+	border-color: #C4C7A7;
+	font: bold 13px Verdana;
+	color: #4C4C44;
+	background: #8F8F21 url(arrow.png) no-repeat right center; /*last 2 values are the x and y coordinates of bullet image*/
+	margin-bottom: 0; /*bottom spacing between header and rest of content*/
+	text-transform: none;
+	padding: 7px 0 7px 7px; /*31px is left indentation of header text*/
+}
+        .urbangreymenu .headerbar a
+        {
+            text-decoration: none;
+            color: #4C4C44;
+            display: block;
+        }
+        .urbangreymenu ul
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+        }
+        .urbangreymenu ul li
+        {
+            padding-bottom: 1px; /*bottom spacing between menu items*/
+            list-style:none;
+        }
+        .urbangreymenu ul li a
+{
+	font: normal 12px verdana;
+	color: #4C4C44;
+	/*background: #FFFFA6;*/
+	background:#e7e3bd;
+	display: block;
+	padding: 5px 0;
+	line-height: 17px;
+	padding-left: 4px; /*link text is indented 8px*/
+	text-decoration: none;	
+}
+        .urbangreymenu ul li a:visited
+        {
+            color: #4C4C44;
+        }
+        .urbangreymenu ul li a:hover
+        {
+            /*hover state CSS*/
+            color: #4C4C44;
+            background: #FFFFFF;
+        }

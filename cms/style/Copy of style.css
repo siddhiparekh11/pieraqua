@@ -1,0 +1,448 @@
+/* global */
+html{height: 100%;}
+
+body
+{ font-family: arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: .78em;
+}
+
+p
+{ margin: 0px;
+  padding: 0px 0px 16px 0px;
+  line-height: 1.7em;
+  color:#000000;
+}
+
+h1, h2, h3, h4
+{ font-size: 110%;
+  letter-spacing: .1em;
+  padding: 7px 0px 5px 0px; 
+  margin: 0px 0px 12px 0px; 
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+img
+{ border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	margin: 0px 0px 0px 11px;
+	padding: 0px;
+}
+
+a{outline: none;}
+
+form{padding: 0; margin: 0;}
+
+/* image positioning - left, right and center */
+.left
+{ float: left; 
+  border-right: 18px solid;
+}
+
+.right
+{ float: right; 
+  border-left: 18px solid;
+}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* block quote */
+blockquote
+{ margin: 20px 0px 20px 0px; 
+  padding: 10px 20px 0px 20px;
+  border-left: 8px solid;
+}
+
+/* unordered list */
+ul
+{ margin: 2px 0px 18px 16px;
+  padding: 0px;
+}
+
+ul li
+{ list-style-type: square;
+  margin: 0px 0px 6px 0px; 
+  padding: 0px;
+}
+
+/* ordered list */
+ol
+{ margin: 8px 0px 0px 24px;
+  padding: 0px;
+}
+
+ol li
+{ margin: 0px 0px 11px 0px; 
+  padding: 0px;
+}
+
+/* margin lefts / margin rights - to centre content */
+#main, #footer, #logo, #menubar, #breadcrumbs
+{ margin-left: auto; 
+  margin-right: auto;
+}
+
+/* main container */
+#main{width: 1000px;}
+
+/* logo */
+#logo
+{
+    width: 1000px;
+    height: 120px; /* border-top: 1px solid;
+  background-color:#7a896c;*/
+    background: url(images/Admin_Banner.jpg) no-repeat left;
+}
+.breadcrumbs
+{ width: 984px;
+  padding: 10px 0px 10px 16px;
+  text-align: left;
+} 
+.headerimage
+{
+    width: 1000px;
+    height: 80px; /* border-top: 1px solid;
+  background-color:#7a896c;*/
+    background: url(../images/TopBanner.jpg) no-repeat left;
+}
+.headerimagePocketMoney
+{
+    width: 1000px;
+    height: 80px; /* border-top: 1px solid;
+  background-color:#7a896c;*/
+    background: url(../images/TopBannerPocketMoney.jpg) no-repeat left;
+}
+.headerimagePierAqua
+{
+    width: 1000px;
+    height: 80px; /* border-top: 1px solid;
+  background-color:#7a896c;*/
+    background: url(../images/TopBannerPierAqua.jpg) no-repeat left;
+}
+.headerimagePhoenixAdvertisement
+{
+    width: 1000px;
+    height: 80px; /* border-top: 1px solid;
+  background-color:#7a896c;*/
+    background: url(../images/TopBannerPhoenixAdvertisement.jpg) no-repeat left;
+}
+.headerimagePhoenixHosting
+{
+    width: 1000px;
+    height: 80px; /* border-top: 1px solid;
+  background-color:#7a896c;*/
+    background: url(../images/TopBannerPhoenixHosting.jpg) no-repeat left;
+}
+.headerimageKountCash
+{
+    width: 1000px;
+    height: 80px; /* border-top: 1px solid;
+  background-color:#7a896c;*/
+    background: url(../images/TopBannerKountCash.jpg) no-repeat left;
+}
+.headerimageWFH
+{
+    width: 1000px;
+    height: 80px; /* border-top: 1px solid;
+  background-color:#7a896c;*/
+    background: url(../images/TopBannerWFH.jpg) no-repeat left;
+}
+.headerimageSMS
+{
+    width: 1000px;
+    height: 80px; /* border-top: 1px solid;
+  background-color:#7a896c;*/
+    background: url(../images/TopBannerBulkSMS.jpg) no-repeat left;
+}
+.headerimageDEV
+{
+    width: 1000px;
+    height: 80px; /* border-top: 1px solid;
+  background-color:#7a896c;*/
+    background: url(../images/TopBannerDevelopment.jpg) no-repeat left;
+}
+#breadcrumbs
+{ width: 984px;
+  padding: 10px 0px 10px 16px;
+  text-align: left;
+} 
+
+#breadcrumbs a{text-decoration: none;}
+/*
+#logo h1
+{ font-family: "century gothic", sans-serif;
+  font-size: 500%;
+  padding: 10px 0px 0px 12px;
+  float: left;
+  letter-spacing: 0em;
+  text-transform:none;
+  color:#1e1915;
+  border-color: #F2F2F0;
+}*/
+
+#colours
+{ height: 0px;
+  text-align: right;
+  padding: 90px 16px 0px 0px;
+}
+
+/* navigation menu */
+#menubar
+{ width: 1000px;
+  height: 70px;
+} 
+
+ul#menu{margin: 0px;}
+
+ul#menu li
+{ float: left; 
+  margin: 0px; 
+  padding: 0px;
+  list-style: none;
+} 
+
+ul#menu li a 
+{ font-family: verdana, sans-serif;
+  display: block; 
+  float: left; 
+  height: 44px;
+  text-decoration: none; 
+  padding: 26px 15px 0px 15px;
+  text-align: center;
+  border-right: 1px solid;
+} 
+
+#search
+{ float: right; 
+  padding: 22px 16px 0px 0px;
+}
+
+input.searchfield
+{ padding: 2px;
+  border: 1px solid; 
+}
+
+input.searchbutton
+{ border: 1px solid; 
+  padding: 0px 0px 1px 0px;
+  width: 64px;
+  cursor: pointer;
+}
+
+#breadcrumbs
+{ width: 984px;
+  padding: 10px 0px 10px 16px;
+  text-align: left;
+} 
+
+#breadcrumbs a{text-decoration: none;}
+
+/* main content */
+#site_content
+{ width: 1000px;
+  overflow: hidden;
+  color:#000000;
+} 
+
+/* sidebar */
+.sidebar
+{ float: left;
+  width: 195px;
+  padding: 16px 0px 16px 16px;
+}
+
+/* sidebar items / links */
+.sidebaritem
+{ text-align: left;
+  width: 190px;
+  float: left;
+  margin: 0px 0px 16px 0px;
+  border: 1px solid;
+}
+
+.sidebaritem h1, .sidebaritem h3, .sidebaritem p{margin: 8px 0 0 0;text-align:center;font-weight:bold;}
+
+.sidebaritem ul
+{ border-top: 1px solid;
+  width: 160px; 
+  padding-top: 4px; 
+  margin: 4px 0px 15px 14px;
+}
+
+.sidebaritem li
+{ list-style: none; 
+  padding: 0px 0px 4px 0px; 
+  border-bottom: 1px solid;
+}
+
+.sidebaritem li a, .sidebaritem li a:hover
+{ height: 16px;
+  text-decoration: none; 
+  padding: 0px 0px 0px 18px;
+  display: block;
+} 
+
+/* page content */
+#content
+{ text-align: left;
+  width: 760px;
+  /*padding: 10px 20px 24px 4px;*/
+  float: left;
+  margin:20px 20px 20px 0px;
+}
+#content1
+{ text-align: left;
+  width: 960px;
+  /*padding: 10px 20px 24px 4px;*/
+  float: left;
+  margin:20px 20px 20px 0px;
+}
+#content h1
+{
+	font-size:20px;
+	border-bottom:solid 2px #E0E0BE;
+}
+
+/* footer */
+#footer
+{ width: 960px;
+  height: 42px;
+  padding: 28px 21px 0px 19px;
+  text-align: center; 
+  border-top: 2px solid;
+}
+
+#breadcrumbs a, #content a, #content a:hover, #footer a, #footer a:hover{text-decoration: none;}
+
+/* sNews */
+fieldset, .comment, .commentsbox{margin-bottom: 10px;}
+
+fieldset
+{ border: 1px solid; 
+  padding: 10px 8px;   
+}
+
+input{padding: 2px;
+	text-align: left;
+	margin-left: 0px;
+}
+
+textarea
+{ width: 95%; 
+  height: 200px;
+  padding: 3px;
+}
+
+.date
+{ border-top: 1px solid; 
+  margin: 15px 0px 5px 0px;
+  font-weight: bold;
+}
+.Test
+{
+    color:#000000;
+}
+
+.textbox
+{
+    border:solid 1px #7a896c;
+}
+.Logout
+{
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+}
+.hover:Logout 
+{
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+}
+/* Menu Style */
+
+.arrowlistmenu{
+width: 180px; /*width of accordion menu*/
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 12px Arial;
+color: white;
+/*background: black url(../images/titlebar.png) repeat-x center left;*/
+background:#000000;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: none;
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+/*background-image: url(../images/titlebar-active.png);*/
+background-color:#7a896c;
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+list-style:none;
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+background: url(../images/arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color: #A70303;
+background-color: #F3F3F3;
+}
+
+.RedStar
+{
+    color:Red;
+}
+.textboxdisable
+{
+    background-color:#ffffff;
+    border:solid 1px #c9c5a2;
+}
+.tblRegistration
+{
+    font-size:12px;
+}
+.tab_form
+{
+    background:url('../images/tab_form.jpg') no-repeat;
+    height:22px;
+    width:148%;
+    border-bottom:solid 3px #000000;
+    padding:6px 0 0 12px;
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:10px;
+}

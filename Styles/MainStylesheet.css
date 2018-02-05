@@ -1,0 +1,475 @@
+﻿/*common*/
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body 
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:0 auto;
+	padding:0px;
+	background-color:#ffffff;
+	font-weight:normal;
+	width:1000px;
+	color:#003066;
+}
+a
+{
+    text-decoration:none;
+    color:#003066;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+.seperator
+{
+    color:#034b6c;
+    font-weight:normal;
+}
+
+#wrapper 
+{
+		margin:0px;
+    text-align: left;
+}
+/* header */
+#wrapper #header 
+{
+	
+	padding:0px;
+	overflow:hidden;
+	height:180px;	
+	margin-bottom:0px;
+}
+#wrapper #header #hupper 
+{
+    height:25px;
+    padding:0px;
+}
+#wrapper #header #hupper .links
+{
+    width:600px;
+	float:right;
+	font-size:12px;
+	text-align:right;
+	font-weight:bold;
+	padding:5px 10px 0 10px;
+	
+}
+#wrapper #header #hmiddle {
+	
+	padding:0px;
+	height:75px;	
+}
+#wrapper #header #hmiddle #hmleft
+{
+	float:left;
+	width:300px;
+}
+#wrapper #header #hmiddle #hmright
+{
+	width:700px;
+	height:75px;
+	float:right;
+	text-align:right;
+	font-weight:bold;
+	font-size:11px;
+	vertical-align:middle;
+	
+}
+#wrapper #header #hlower
+{
+    clear:both;
+    padding:0px;
+    height:80px;
+}
+#wrapper #header #hlower #tabs
+{
+    padding:0px;
+    height:80px;
+}
+/* ajax search tabs */
+ .ajax__myTab .ajax__tab_header {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight:bold;
+        border-bottom: solid 1px #ff7200;
+        text-align:center;
+        
+     }
+    .ajax__myTab .ajax__tab_active .ajax__tab_outer 
+    {
+        padding-right: 4px;
+        height: 30px;
+        background-image:url('../CssImages/searchbarslice.png');
+        background-repeat:repeat-x;
+        margin-right: 0px;/*changed*/
+        border-right: solid 1px #ff7200;
+        border-top: solid 1px #ff7200;
+    }
+    .ajax__myTab .ajax__tab_active .ajax__tab_inner 
+    {
+        padding-left: 0px;
+        height: 30px;
+        background-image:url('../CssImages/searchbarslice.png');
+        background-repeat:repeat-x;
+         border-left: solid 1px #ff7200;
+        border-bottom: solid 1px #ff7200;
+    }
+    .ajax__myTab .ajax__tab_outer {
+        padding-right: 4px;
+        height: 30px;
+        background-image:url('../CssImages/graybuttonslice.png');
+        background-repeat:repeat-x;
+        margin-right: 0px;/*changed*/
+        border-right: solid 1px #868f98;
+        border-top: solid 1px #868f98;
+     }
+    
+    .ajax__myTab .ajax__tab_inner {
+        padding-left: 0px;
+        height: 30px;
+        background-image:url('../CssImages/graybuttonslice.png');
+        background-repeat:repeat-x;
+         border-left: solid 1px #868f98;
+        
+     }
+    
+    .ajax__myTab .ajax__tab_tab {
+        height: 13px;
+        padding: 9px;
+        margin: 0;
+     }
+     .ajax__myTab .ajax__tab_hover
+     {
+          cursor:pointer;
+     }
+   
+    .ajax__myTab .ajax__tab_hover .ajax__tab_outer 
+    {
+        border-bottom-color:#ff7200;
+        background-color: #ff7200;
+     }
+    
+    .ajax__myTab .ajax__tab_hover .ajax__tab_inner 
+    {
+        border-bottom-color:#ff7200;
+        background-color: #ff7200;
+     }
+    
+    .ajax__myTab .ajax__tab_hover .ajax__tab_tab {}
+    
+    .ajax__myTab .ajax__tab_active .ajax__tab_outer {
+        background-color: #ff7200;
+        border-left: solid 1px #ff7200;
+     }
+    
+    .ajax__myTab .ajax__tab_active .ajax__tab_inner {
+        background-color:#ff7200;
+     }
+    
+    .ajax__myTab .ajax__tab_active .ajax__tab_tab {}
+   
+    .ajax__myTab .ajax__tab_body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        border: 1px solid #ff7200;
+        border-top: 0;
+        padding-top:5px;
+       padding-left:8px;
+       padding-right:8px;
+        padding-bottom:5px;
+         background-image:url('../CssImages/searchbarslice.png');
+        background-repeat:repeat-x;
+        background-color:#ff7200;
+      }
+ /* main wrapper */
+ #wrapper #mainwrapper
+ {
+     margin:0px;
+     padding:0px;
+     
+ }
+ #wrapper #mainwrapper #left
+ {
+     width:260px;
+     padding:0px;
+     float:left;
+     margin-right:10px;
+    margin-bottom:10px;
+ }
+ #wrapper #mainwrapper #left #categories
+ {
+     width:260px; 
+    float:none;
+    padding:0px;
+	/*border-top:1px solid #003066;*/
+	border-left:1px solid #003066;
+	border-right:1px solid #003066;
+	/*border-bottom:1px solid #003066;*/
+	margin-bottom:10px;
+ }
+  #wrapper #mainwrapper #main
+ {
+    float:left;
+    width:730px;
+    padding:0px;
+   margin-bottom:5px;
+ }
+  
+ #wrapper #mainwrapper #left #advertisements
+ {
+     clear:both;
+     width:260px;
+     padding:0px;
+    
+     border:1px solid #003066;
+     
+ }
+ #wrapper #mainwrapper #main #slider
+ {
+     
+     margin-top:5px;
+     border:1px solid #003066;
+     height:150px;
+ }
+ #wrapper #mainwrapper #main #hometab
+ {
+ 	clear:both;
+ 	margin-top:5px;
+ 	border:1px solid #003066;
+ 	width:350px;
+ 	float:left;
+ }
+ #wrapper #mainwrapper #main #hometestimonials
+ {
+ 	float:left;
+ 	margin-top:5px;
+ 	margin-left:5px;
+ 	width:370px;
+ 	border:1px solid #003066;
+ 	
+ }
+/* home page main wrapper tabs */
+.ajax__homemyTab .ajax__tab_header {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight:bold;
+        border-bottom: solid 1px #ff7200;
+        text-align:left;
+        
+     }
+    .ajax__homemyTab .ajax__tab_active .ajax__tab_outer 
+    {
+        padding-right: 4px;
+        height: 30px;
+        background-image:url('../CssImages/searchbarslice.png');
+        background-repeat:repeat-x;
+        margin-right: 0px;/*changed*/
+        border-right: solid 1px #ff7200;
+        border-top: solid 1px #ff7200;
+    }
+    .ajax__homemyTab .ajax__tab_active .ajax__tab_inner 
+    {
+        padding-left: 0px;
+        height: 30px;
+        background-image:url('../CssImages/searchbarslice.png');
+        background-repeat:repeat-x;
+         border-left: solid 1px #ff7200;
+        border-bottom: solid 1px #ff7200;
+    }
+    .ajax__homemyTab .ajax__tab_outer {
+        padding-right: 4px;
+        height: 30px;
+        background-image:url('../CssImages/graybuttonslice.png');
+        background-repeat:repeat-x;
+        margin-right: 0px;/*changed*/
+        border-right: solid 1px #868f98;
+        border-top: solid 1px #868f98;
+     }
+    
+    .ajax__homemyTab .ajax__tab_inner {
+        padding-left: 0px;
+        height: 30px;
+        background-image:url('../CssImages/graybuttonslice.png');
+        background-repeat:repeat-x;
+         border-left: solid 1px #868f98;
+        
+     }
+    
+    .ajax__homemyTab .ajax__tab_tab {
+        height: 13px;
+        padding: 9px;
+        margin: 0;
+     }
+     .ajax__homemyTab .ajax__tab_hover
+     {
+          cursor:pointer;
+     }
+   
+    .ajax__homemyTab .ajax__tab_hover .ajax__tab_outer 
+    {
+        border-bottom-color:#ff7200;
+        background-color: #ff7200;
+     }
+    
+    .ajax__homemyTab .ajax__tab_hover .ajax__tab_inner 
+    {
+        border-bottom-color:#ff7200;
+        background-color: #ff7200;
+     }
+    
+    .ajax__homemyTab .ajax__tab_hover .ajax__tab_tab {}
+    
+    .ajax__homemyTab .ajax__tab_active .ajax__tab_outer {
+        background-color: #ff7200;
+        border-left: solid 1px #ff7200;
+     }
+    
+    .ajax__homemyTab .ajax__tab_active .ajax__tab_inner {
+        background-color:#ff7200;
+     }
+    
+    .ajax__homemyTab .ajax__tab_active .ajax__tab_tab {}
+   
+    .ajax__homemyTab .ajax__tab_body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        border: 1px solid #ff7200;
+        border-top: 0;
+        padding-top:5px;
+       padding-left:8px;
+       padding-right:8px;
+        padding-bottom:5px;
+         background-image:url('../CssImages/searchbarslice.png');
+        background-repeat:repeat-x;
+        background-color:#ff7200;
+      }	
+      /*footer*/
+#wrapper #footer 
+{
+	clear:both;
+	padding:0px;
+	overflow:hidden;
+	
+		
+	
+}
+#wrapper #footer #hrruler
+{
+	height:2px;
+	background-color:#003066;
+	
+}
+#wrapper #footer #socialnetworking
+{
+	float:right;
+	text-align:right;
+	width:400px;
+	padding:5px;
+	
+}
+#wrapper #footer #footerlinks
+{
+	clear:both;
+	font-size:12px;
+	
+}
+/*watermarks*/
+.txtwatermark
+{
+	color:#e0ded9;
+}
+/* textbox style */
+.txtstyle
+{
+	border:1px solid #003066;
+	font-size:13px;	
+}
+/* button style*/
+.btnstyle
+{
+	background-image:url('../CssImages/graybuttonslice.png');
+	background-repeat:repeat-x;
+    padding:8px;
+    font-size:11px;
+    font-weight:bold;
+    border:1px solid #868f98;    
+    
+}
+
+a.btnstyle:hover
+{
+    text-decoration:none;
+}
+.btnstyle1
+{
+    background-image:url('../CssImages/shoppingcartslice.png');
+	background-repeat:repeat-x;
+    padding:3px;
+    font-size:10px;
+    font-weight:bold;
+    border:1px solid #ff7200;    
+    text-decoration:none;
+    margin:1px;
+    text-decoration:none;
+}
+
+a.btnstyle1:hover
+{
+    text-decoration:none;
+}
+
+/* required asterik */
+.asterik
+{
+	color:Red;
+	font-weight:bold;
+	font-size:10px;
+}
+/*login page */
+#login
+{
+	padding:10px;
+	margin-right:3px;
+	width:440px;
+	margin-bottom:10px;
+	border:1px solid #003066;
+	float:left;
+	font-size:11px;
+}
+
+#forgetpassword
+{
+	float:left;
+	width:513px;
+	border:1px solid #003066;
+	padding:10px;
+	margin-bottom:10px;
+	font-size:11px;
+}
+
+/* registration page */
+#registration
+{
+	padding:10px;
+	margin-right:3px;
+	width:550px;
+	margin-bottom:10px;
+	border:1px solid #003066;
+	float:left;
+	font-size:11px;
+}
+
+/* searchresult page */
+#searchedproduct
+{
+	border:1px solid #003066;
+	font-size:12px;
+}
+#searchedproduct a
+{
+    text-decoration:underline;
+}

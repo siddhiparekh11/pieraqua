@@ -1,0 +1,100 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:textbox skinid="WhiteBack" runat="server" BorderStyle="Solid" forecolor="#000000" backcolor="#ffffff" height="20px" BorderColor="#d6d3ce"/>
+
+<asp:GridView runat="server" SkinID="WfhGrid" 
+HeaderStyle-BackColor="#7a896c"
+HeaderStyle-ForeColor="White"
+HeaderStyle-wrap="False"
+HeaderStyle-Height="20px"
+HeaderStyle-Font-Bold="True"
+HeaderStyle-HorizontalAlign="Center"
+
+RowStyle-BackColor="#F7F6F3" 
+RowStyle-ForeColor="#333333" 
+RowStyle-Wrap="False"
+RowStyle-HorizontalAlign="Center"
+
+AlternatingRowStyle-BackColor="#FfFfFF"
+AlternatingRowStyle-Wrap="False"
+
+EditRowStyle-BackColor="#bcbcb4"
+
+CellPadding="4"
+ForeColor="#333333"
+GridLines="None"
+ShowFooter="True" 
+ShowHeader="True" 
+                    
+PagerStyle-BackColor="#bcbcb4" 
+PagerStyle-ForeColor="#000000"
+PagerStyle-HorizontalAlign="Left"
+PagerStyle-Font-Bold="True"
+PagerStyle-Position="TopAndBottom"
+FooterStyle-BackColor="#d5d3ba"
+FooterStyle-Height="10px"
+
+/>
+
+<asp:GridView runat="server" SkinID="PlanGrid" width="100%" height="100%"
+HeaderStyle-BackColor="#7a896c"
+HeaderStyle-ForeColor="White"
+HeaderStyle-wrap="False"
+HeaderStyle-Height="40px"
+HeaderStyle-Font-Bold="True"
+HeaderStyle-HorizontalAlign="Center"
+
+RowStyle-BackColor="#333333" 
+RowStyle-ForeColor="#ffffff" 
+RowStyle-Wrap="False"
+RowStyle-HorizontalAlign="Center"
+RowStyle-Height="30px"
+
+AlternatingRowStyle-BackColor="#333333"
+AlternatingRowStyle-Wrap="False"
+
+EditRowStyle-BackColor="#bcbcb4"
+
+CellPadding="4"
+ForeColor="#333333"
+GridLines="None"
+ShowFooter="True" 
+ShowHeader="True" 
+                    
+PagerStyle-BackColor="#bcbcb4" 
+PagerStyle-ForeColor="#000000"
+PagerStyle-HorizontalAlign="Left"
+PagerStyle-Font-Bold="True"
+PagerStyle-Position="TopAndBottom"
+
+FooterStyle-BackColor="#d5d3ba" 
+FooterStyle-Height="5px"
+/>
+
+<asp:ValidationSummary runat="server" SkinID="ValidatioSummery"
+    DisplayMode="BulletList" 
+    CssClass="errors" />
+    
+    <asp:TreeView SkinID="TreeView" runat="server" BackColor="#7A896C" 
+        ForeColor="#333333" ImageSet="Arrows" NodeIndent="35">
+        <ParentNodeStyle Font-Bold="False" />
+        <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+        <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" 
+            HorizontalPadding="0px" VerticalPadding="0px" />
+        <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" 
+            HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+        <LeafNodeStyle ForeColor="White" />
+    </asp:TreeView>
